@@ -1,6 +1,6 @@
 import java.util.regex.*;
 
-public class Main {
+public class PatternMatch {
     public static void main(String[] args) {
         Pattern pattern = Pattern.compile("ab");
         Matcher matcher = pattern.matcher("abababbbaab");

@@ -6,6 +6,7 @@ public class Main {
         Matcher matcher = pattern.matcher("abababbbaab");
 
         int count = 0;
+        int count2;
 
         while (matcher.find()){
             count++;

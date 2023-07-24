@@ -36,6 +36,12 @@ public class InputValidation {
         validation("tharindu@gmail.", anyMailPattern);
 
 
+        //password validation
+        // must contain an uppercase letter, lowercase letter @#$& symbol and contain minimum 8 characters and maximum 12 characters
+        String passwordPattern = "((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$&]).{8,12})";
+
+        validation("dio@INDIA123", passwordPattern);
+
 
     }
 
